@@ -1,0 +1,421 @@
+@media (min-width: 1921px) {
+  html {
+    font-size: 18px;
+  }
+
+  .error-page-content .graphics {
+    margin-bottom: 8.25rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 3840px) {
+  html {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 1750px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 12px;
+  }
+
+  .error-page-title {
+    margin-top: auto;
+    font-size: 3rem;
+    margin-bottom: 3.125rem;
+  }
+
+  .error-page-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .error-page-content .graphics {
+    margin-bottom: 20.125rem;
+  }
+
+  /* LOGIN PAGE */
+  .login-graphic img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .login-content {
+    margin-left: 8.333333%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 10px;
+  }
+
+  .card-sm {
+    max-width: 25rem;
+  }
+
+  .card-md {
+    max-width: 35rem;
+  }
+
+  .card-xl {
+    max-width: 90rem;
+  }
+
+  .login-content {
+    margin-left: 4%;
+  }
+
+  .noticeboard-card {
+    max-width: 19.8rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .login-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1137px) {
+  .login-graphic {
+    display: none;
+  }
+
+  .login-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-content .logo-img {
+    margin-bottom: 4rem;
+  }
+
+  .mobile-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+  }
+
+  .create-password-form {
+    padding-bottom: 1.25rem;
+  }
+
+  .input-w-icon,
+  .btn-login {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+
+  .dashboard-main {
+    margin-right: 2rem;
+  }
+
+  .card-sm {
+    max-width: 19rem;
+  }
+
+  .card-md {
+    max-width: 29.25rem;
+  }
+
+  .card-xl {
+    max-width: 59.75rem;
+  }
+
+  .noticeboard-cards {
+    justify-content: flex-start;
+  }
+
+  .noticeboard-card {
+    max-width: 17.5rem;
+  }
+
+  /* .form-add-item-wrapper form .form-group.item-form-group {
+		min-width: 18.5rem;
+		width: 100%;
+	}
+
+	.form-add-item-wrapper form .form-group.quantity-form-group {
+		max-width: 10rem;
+		width: 100%;
+	}
+
+	.form-add-item-wrapper form .form-group.price-form-group {
+		max-width: 10.5rem;
+		width: 100%;
+	}
+
+	.form-add-item-wrapper form .form-group.vat-form-group {
+		max-width: 9rem;
+		width: 100%;
+	}
+
+	.form-add-item-wrapper form .form-group.amount-form-group {
+		border-right: 0;
+		max-width: 9.875rem;
+		width: 100%;
+	} */
+
+  .error-page-title {
+    font-size: 7rem;
+    margin-bottom: 3.125rem;
+  }
+
+  .error-page-subtitle {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .login-form {
+    width: 100%;
+  }
+
+  .card-lg,
+  .card-md,
+  .card-sm {
+    max-width: unset;
+  }
+
+  .noticeboard-card:not(:nth-child(3n + 3)) {
+    margin-right: 0;
+  }
+
+  .noticeboard-cards {
+    justify-content: space-between;
+  }
+
+  .noticeboard-card {
+    max-width: 24rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .login-content {
+    max-width: 100%;
+  }
+
+  .card-md,
+  .card-sm {
+    max-width: 100%;
+  }
+
+  .noticeboard-card {
+    max-width: 17.5rem;
+  }
+
+  .dropdown-notifications-menu {
+    transform: translate3d(-160px, 19px, 0px) !important;
+    top: 0px;
+    right: 0px;
+    max-height: 40rem !important;
+  }
+
+  .card-xl {
+    max-width: 100%;
+  }
+
+  .header-bar {
+    padding: 1rem;
+  }
+
+  .modal-xs-2 {
+    max-width: 27.875rem;
+  }
+
+  .atm-card,
+  .bank-card,
+  .integration-card,
+  .folder-card,
+  .setup-payroll-pending-card,
+  .setup-payroll-card,
+  .nt-event-card {
+    max-width: 100%;
+  }
+
+  .card-setup-payroll.pending.graphic::after,
+  .setup-payroll-country::after {
+    content: none;
+  }
+
+  .card-setup-payroll {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 1rem;
+  }
+
+  .sidebar-overlay {
+    display: none;
+  }
+
+  .modal-form .form-group.col-md-8 {
+    height: fit-content;
+  }
+
+  .create-new-event-left-content img {
+    display: none;
+  }
+
+  .modal-setup-payroll .modal-dialog,
+  .time-input,
+  .date-input,
+  .event-date-time-details-form .form-group,
+  .event-date-time-details-form .input,
+  .file-input-label,
+  .create-new-event-left,
+  .create-new-event-content {
+    max-width: 100%;
+  }
+
+  .create-new-event-left-content .modal-subtitle {
+    margin-bottom: 2rem;
+  }
+
+  .create-new-event-left-content,
+  .create-new-event-left {
+    height: auto;
+  }
+
+  .card-payroll-content.graphic::after,
+  .setup-payroll-amount::after,
+  .modal-goto-payroll::after,
+  .setup-payroll-bank-details::after,
+  .setup-payroll-documents::after,
+  .modal-setup-payroll.graphic::after {
+    content: none;
+  }
+
+  .card-payroll-content.graphic::after {
+    height: 11rem;
+  }
+
+  .card-setup-payroll {
+    margin-top: 1.25rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .error-page-title {
+    margin-top: auto;
+    font-size: 3rem;
+  }
+
+  .error-page-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .error-page-content .graphics {
+    margin-bottom: 10rem;
+  }
+
+  .mobile-nav-bar-overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  .btn-sidebar-mobile-collapse[aria-expanded="true"] + .mobile-nav-bar-overlay {
+    display: flex;
+  }
+
+  .navbar-collapse {
+    padding-top: 1.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    width: 75%;
+    height: 100%;
+    background: var(--white);
+    z-index: 2;
+  }
+
+  .navbar-collapse .nav-divider-2 {
+    max-width: 100%;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .navbar-collapse .flex-column {
+    width: 100%;
+  }
+
+  .navbar-collapse .nav-heading {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .navbar-collapse .nav-link {
+    font-size: 1.25rem;
+    color: var(--typography-dark-grey);
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  .dashboard-main {
+    margin-right: 0;
+  }
+
+  .noticeboard-card {
+    max-width: 100%;
+  }
+}

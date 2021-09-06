@@ -1,0 +1,503 @@
+/* SCROLLBAR */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0.1875rem;
+    padding-right: 0.625rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d6d6d6;
+    border-radius: 0.3125rem;
+}
+
+/*  Video index  */
+
+.fix-video-main .video-index-nt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 80rem;
+    min-height: 15rem;
+    height: 100%;
+    position: relative;
+}
+
+.video-events-typ {
+    max-width: 27.875rem;
+    width: 100%;
+    left: calc(50% - 10.9375rem);
+    top: 13.75rem;
+    border-radius: 0.625rem;
+    padding: 1.625rem 1.875rem 1.875rem 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-events-type-start {
+    height: 18.688rem;
+    width: 21.188rem;
+    text-align: center;
+}
+
+.video-events-type-start > tbody > tr > td > h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 43px;
+    color: #000000;
+    margin: 0px 9px;
+}
+
+.video-events-type-start > tbody > tr > td > svg > rect:hover {
+    fill: #fa4769;
+}
+
+.video-index-time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 82px;
+    color: #000000;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+
+.video-index-data {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #838a90;
+    margin: 7px 0px;
+}
+
+.video-search-members {
+    display: flex;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 40px;
+    align-items: center;
+    padding: 4px 5px 5px 15px;
+    margin-bottom: 1rem;
+}
+
+.video-search-select {
+    display: flex;
+    max-width: 17.6rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.video-search-select > div:nth-of-type(2) {
+    align-items: center;
+    padding: 2px 10px;
+    width: 41px;
+    height: 30px;
+    background: #5152fb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.video-search-select > div:nth-of-type(2) > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.video-border-bottom {
+    border-bottom: 1px #eeeeee solid;
+    flex-wrap: nowrap !important;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.fix-video-main .video-index-search {
+    min-height: 15rem;
+}
+
+.participants-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.participants-display li:nth-child(1) {
+    display: flex;
+    max-width: fit-content;
+    width: 100%;
+    align-items: center;
+}
+
+/*   Live Events    */
+
+.video-live-events-nt {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    max-height: 70rem;
+    min-height: 30rem;
+    display: flex;
+}
+
+.bagColLiveEvents {
+    max-width: 138rem;
+    min-width: 35rem;
+    width: 100%;
+    padding: 10px;
+}
+
+.bag-col-blue-nt {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    position: relative;
+}
+
+.live-events-header {
+    padding: 10px 0;
+    background-color: #ffffff;
+    height: 135px;
+    max-width: 105rem;
+    min-width: 50rem;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.live-events-header > ul {
+    display: flex;
+}
+
+.live-events-header > ul > li {
+    width: 205px;
+    height: 115px;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+.live-events-header > ul > li > p {
+    position: absolute;
+    left: 10px;
+    bottom: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.video-liveEvents-start {
+    position: relative;
+    height: 100%;
+    background-image: url("../images/video-events/Milanlive.png");
+    max-height: calc(100% - 135px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.video-live-events-footer-nt {
+    background: #000000;
+    opacity: 0.54;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-live-events-footer-nt > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-live-events-footer-nt > ul > li {
+    margin: 18px;
+    text-align: -webkit-center;
+}
+
+.icon-txt {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-top: 7px;
+}
+
+/*   End Live Events    */
+
+.live-events-close-mod-bnt {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+.live-events-invite-bnt {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #5152fb;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5152fb;
+    bottom: 12px;
+}
+
+.participantsModLiveEvents {
+    width: 700px;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+}
+
+.participantsModLiveEvents > div > div > h5 {
+    margin-bottom: 0.796rem;
+    width: 99px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.chatModLiveEvents {
+    width: 700px;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatMessVideoLive:hover {
+    background: #1d2c40;
+    color: #ffffff;
+}
+
+div.video-live-events-nt > div.chatModLiveEvents > div > div:nth-child(1) {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+div.video-live-events-nt > div.chatModLiveEvents > div > div:nth-child(1) > h5 {
+    margin-bottom: 0.796rem;
+    width: 99px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.meeting-live-chat-content {
+   height: 80vh;
+}
+
+p.message-time-sent.small-text-2.color-dark-grey {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #838a90;
+}
+
+.channel-messages-list.custom-scrollbar li {
+    position: relative;
+}
+
+.channel-profile-avatar-1 {
+    position: absolute;
+    top: 0;
+}
+
+.participants-display li img {
+    margin: 0;
+}
+
+p.profile-name.medium-text.bold-text.color-black.pr-1 {
+    margin-left: 10px;
+}
+
+.channel-message-content {
+    padding: 5px 0 0 45px;
+}
+
+.chatMessVideoLive {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    width: 239px;
+    height: auto;
+    background: #ddf3ff;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.participants-qty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.meeting-live-send-message {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.meeting-live-send-message textarea {
+    max-width: 360px;
+    width: 100%;
+    height: 100%;
+    min-height: 85px;
+    border: 1px solid #dadfe6;
+    /*box-sizing: border-box;*/
+    border-radius: 3px;
+    /*text-indent: 10px;*/
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button {
+    background: #5152fb;
+    color: white;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button
+> i {
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button:nth-child(3) {
+    margin-right: 49px;
+    color: #838a90;
+    background: white;
+}
+
+.live-chat-close-mod-bnt {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+/* live events group */
+
+.group-live-events-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    max-height: 868px;
+    height: 100%;
+    align-items: end;
+}
+
+.all-video-events-view {
+    width: calc((100% / 2) - 10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin: 5px;
+    position: relative;
+    height: calc(100% / 2);
+    max-width: 738px;
+}
+
+.all-video-events-view > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.new-video-live-events-footer-nt {
+    background: #f7f7f7;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-video-live-events-footer-nt > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-video-live-events-footer-nt > ul > li {
+    margin: 18px;
+    text-align: -webkit-center;
+}
+
+/* end live events group */

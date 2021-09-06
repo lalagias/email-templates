@@ -1,0 +1,678 @@
+/* meeting call settings MODAL*/
+.close-icon > i {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 1;
+    color: #838A90;
+    font-size: 16px;
+}
+
+
+.dot-online {
+    height: 11px;
+    width: 11px;
+    background-color: #43C876;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#meetingSettingsModal > div > div > div > div {
+    padding: 0 0 26px;
+    width: 480px;
+    /*height: 601px;*/
+
+}
+
+#meetingSettingsModal > div > div > div > div > div > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#meetingSettingsModal > div > div > div > div > div > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#meetingSettingsModal > div > div > div > div > div > form > div > label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+#meetingSettingsModal > div > div > div > div > div > form > input {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+#meetingSettingsModal > div > div > div > div > div > div > div {
+    margin-bottom: 40px;
+}
+
+#meetingSettingsModal > div > div > div > div > div {
+    padding: 0 2.850rem !important;
+}
+
+#meetingName {
+    border: 1px solid #DADFE5;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-bottom: 29px;
+    text-indent: 10px;
+}
+
+.quick-call-user-img {
+    margin-top: 40px;
+}
+
+.quick-call-username {
+    /* Headings/H1 Medium */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 20px 0px 4px !important;
+}
+
+.txt-online {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    margin: 0px 5px;
+}
+
+.checkboxes-group label {
+    /* Small/Regular */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+#meetingSettingsModal > div > div > div > div > div > p {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    margin-top: 11px;
+}
+
+/* END meeting call settings MODAL*/
+
+/* I'm calling MODAL*/
+#imCallingModal > div > div > div > div > div {
+    max-width: 450px;
+    max-height: 438px;
+}
+
+#imCallingModal > div > div > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838A90;
+    margin: 7px 0px 80px;
+}
+
+#imCallingModal > div > div > div > div > div > div > p {
+    margin: 0;
+}
+
+.call-btn-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 5px 0px;
+
+}
+
+#imCallingModal > div > div > div > div > div > div > div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+#imCallingModal > div > div > div > div > div > div > div:nth-child(4) svg {
+    cursor: pointer;
+}
+
+/*END I'm calling MODAL*/
+
+
+/*END  calling me MODAL*/
+#callingMeModal > div > div > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#callingMeModal > div > div > div > div > div {
+    max-width: 450px;
+    max-height: 438px;
+}
+
+.call-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#callingMeModal > div > div > div > div > div > div > .call-buttons > div:nth-child(1) {
+    margin-right: 40px;
+    margin-bottom: 64px;
+}
+
+#callingMeModal > div > div > div > div > div > div > .call-buttons > div:nth-child(2) {
+    margin-left: 40px;
+    margin-bottom: 64px;
+}
+
+
+/*END  calling me MODAL*/
+
+/*invite people modal*/
+
+#invitePeopleModal > div > div > div > div {
+    max-width: 440px;
+    max-height: 633px;
+    padding: 0 1.849rem !important;
+}
+
+#invitePeopleModal > div > div > div > div > h2 {
+    margin: 40px 0 30px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#searchPeopleForInvite {
+    border: 1px solid #DADFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    margin: 7px 0 17px;
+    text-indent: 10px;
+}
+
+.search-people-for-invite label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.invite-people-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /*text-align: center;*/
+    color: #000000;
+    margin: 3px 0px;
+}
+
+.remove-invited-people {
+    cursor: pointer;
+    color: #838A90;
+    font-size: 16px;
+}
+
+.invite-people-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.invite-people-list li img {
+    margin-right: 10px;
+}
+
+.invite-people-list li div {
+    display: flex;
+    align-items: center;
+}
+
+.autocomplete-invite-people-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0;
+}
+
+.autocomplete-invite-people-list li img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.autocomplete-invite-people-list li div {
+    display: flex;
+    align-items: center;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.invite-people-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.invite-people-btn button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.invite-people-btn button:nth-child(1), button:nth-child(2) {
+    border: 0;
+    color: #5152FB;
+    background: white;
+
+}
+
+.autocomplete-invite-people {
+    position: absolute;
+    height: 205px;
+    width: 183px;
+    left: 19%;
+    top: 25%;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+/*END invite people modal*/
+
+/*Start meeting MODAL*/
+
+#startNewMeetingModal > div > div > div > div {
+    max-width: 440px;
+    max-height: 430px;
+}
+
+#startNewMeetingModal > div > div > div > div > div > h2 {
+    margin: 40px 0 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#startNewMeetingModal > div > div > div > div > div > form > div > label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+#newMeetingName {
+    border: 1px solid #DADFE5;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-bottom: 29px;
+    text-indent: 10px;
+}
+
+#startNewMeetingModal > div > div > div > div > div > form > input {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#startNewMeetingModal > div > div > div > div > div > p {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 11px 0 22px;
+}
+
+.filter-option:not(:last-child) {
+    margin-bottom: 10px !important;
+}
+
+/*END Start meeting MODAL*/
+
+/* Schedule Meeting MODAL*/
+#scheduleMeetingModal > div > div > div > div {
+    padding: 0 2rem;
+    min-width: 480px;
+    min-height: 735px;
+}
+
+#scheduleMeetingModal > div > div > div > div > h2 {
+    margin: 40px 0 30px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#scheduleMeetingName {
+    border: 1px solid #DADFE5;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-bottom: 29px;
+    text-indent: 10px;
+}
+
+.meeting-item-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > div > div > div > button {
+    left: 40% !important;
+    padding: 0;
+    margin-right: 15px;
+}
+
+#scheduleDate {
+    width: 100%;
+    height: 35px;
+    margin-right: 6px;
+}
+
+#scheduleTime {
+    width: 100%;
+    height: 35px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#hourClock {
+    border: 1px solid #dadfe6;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-left: 6px;
+    border-right: 0;
+    height: 35px;
+}
+
+#hourClock:focus, #hourClock:hover {
+    border: 0.0625rem solid #5152fb;
+}
+
+#scheduleTimeZone {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.03);
+    border: 1px solid #DADFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    height: 35px;
+    text-indent: 10px;
+    margin: 7px 0 20px;
+}
+
+.date-input {
+    margin-top: 7px;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > div > div {
+    padding: 0;
+}
+
+.schedule-radio-groups {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.schedule-radio-groups div {
+    display: flex;
+    align-items: center;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > div > label:nth-child(10) {
+    margin: 20px 0 12px;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > div > label:nth-child(7) {
+    margin: 20px 0 12px;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > div > label:nth-child(13) {
+    padding: 20px 0 12px;
+}
+
+#scheduleMeetingModal > div > div > div > div > form > input {
+    width: 100%;
+    margin-bottom: 31px;
+    height: 40px;
+}
+
+/*END Schedule Meeting MODAL*/
+
+/*Join meeting MODAL*/
+#joinMeetingModal > div > div > div > div > div > h2 {
+    margin: 40px 0 30px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#meetingId {
+    border: 1px solid #DADFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    margin: 7px 0 17px;
+    text-indent: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A7A7A7;
+}
+
+#yourName {
+    border: 1px solid #DADFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    margin: 7px 0 30px;
+    text-indent: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#joinMeetingModal > div > div > div > div > div > form > div:nth-child(4) {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+#joinMeetingModal > div > div > div > div > div > form > div:nth-child(4) > button:nth-child(1) {
+    border: 1px solid #838A90;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #838A90;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+    margin-right: 11px;
+}
+
+#joinMeetingModal > div > div > div > div > div > form > div:nth-child(4) > button.btn.btn-purple {
+    cursor: pointer;
+    width: 50px;
+    height: 35px;
+    background: var(--main-purple-color) !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+/* END Join meeting MODAL*/
+
+/*Share screen MODAL*/
+#shareScreenModal > div > div > div > div > div > h2 {
+    margin: 40px 0 30px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#sharingKey {
+    border: 1px solid #DADFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    margin: 7px 0 30px;
+    text-indent: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A7A7A7;
+}
+
+#shareScreenModal > div > div > div > div > div > form > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+#shareScreenModal > div > div > div > div > div > form > div:nth-child(2) > button:nth-child(1) {
+    border: 1px solid #838A90;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #838A90;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+    margin-right: 11px;
+}
+
+#shareScreenModal > div > div > div > div > div > form > div:nth-child(2) > button.btn.btn-purple {
+    cursor: pointer;
+    width: 50px;
+    height: 35px;
+    background: var(--main-purple-color) !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+/* END Share screen MODAL*/
+
+
+
+
+

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF CV</title>
+
+    <!-- BOOTSTRAP 4.6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="../fonts/native-teams-icons/style.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+  </head>
+  <body class="bg-body">
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 card-pdf mt-40">
+            <div class="card-profile-main mb-20">
+              <img
+                src="../images/profile/bg-profile.svg"
+                alt="bg-profile.svg"
+                class="cover-photo"
+              />
+              <div class="card-profile-main-body">
+                <img
+                  src="../images/profile/avatar.png"
+                  alt="avatar.png"
+                  class="avatar-profile-img"
+                />
+                <div class="user-profile-details">
+                  <h2 class="heading-2 bold-text color-black mb-1">
+                    Mathilda Lane
+                  </h2>
+                  <p class="employee-country medium-text color-dark-blue mb-15">
+                    <img
+                      src="../images/countries/serbia.svg"
+                      alt="country-img"
+                      class="country-img"
+                    />
+                    Serbia, Novi Sad
+                  </p>
+                  <p class="medium-text color-dark-grey">
+                    Software Enginer at Microsoft
+                  </p>
+                </div>
+                <div class="user-profile-actions ml-auto">
+                    <div class="d-flex align-items-center mb-30">
+                        <a href="" class="medium-text bold-text color-dark-grey mr-3"
+                        >www.native.to</a
+                      >
+                      <a href="" class="medium-text bold-text color-dark-grey mr-3"
+                        ><i class="icon-instagram fs-15"></i>
+                      </a>
+                      <a href="" class="medium-text bold-text color-dark-grey mr-30"
+                        ><i class="icon-linkedin fs-15"></i>
+                      </a>
+                    </div>
+                  <div class="user-profile-actions-media">
+                    <button
+                      data-toggle="modal"
+                      data-target="#contactUserModal"
+                      class="btn btn-purple small-text color-white mr-10"
+                    >
+                      <i class="icon-send pr-2"></i>
+                      Contact
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">About</p>
+            <p class="medium-text color-black">
+              My name is Alex Drysdale and I am a Junior Web Developer for
+              Oswald Technologies. I am an accomplished coder and programmer,
+              and I enjoy using my skills to contribute to the exciting
+              technological advances that happen every day at Oswald Tech. I
+              graduated from the California Institute of Technology in 2016 with
+              a Bachelor's Degree in Software Development. While in school, I
+              earned the 2015 Edmund Gains Award for my exemplary academy
+              achieveme...
+            </p>
+            <div class="card-profile-footer">
+              <div class="group">
+                <p class="small-text color-dark-grey mb-1">Experience Level</p>
+                <p class="medium-text bold-text color-black">
+                  Junior (0-2 yrs)
+                </p>
+              </div>
+              <div class="group">
+                <p class="small-text color-dark-grey mb-1">Country</p>
+                <p class="employee-country medium-text bold-text color-black">
+                  <img
+                    src="../images/countries/serbia.svg"
+                    alt="country-img"
+                    class="country-img"
+                  />Portugal
+                </p>
+              </div>
+              <div class="group">
+                <p class="small-text color-dark-grey mb-1">City</p>
+                <p class="medium-text bold-text color-black">Lisbon</p>
+              </div>
+              <div class="group">
+                <p class="small-text color-dark-grey mb-1">Date of birth</p>
+                <p class="medium-text bold-text color-black">09/10/1990</p>
+              </div>
+              <div class="group">
+                <p class="small-text color-dark-grey mb-1">Email</p>
+                <p class="medium-text bold-text color-purple">
+                  ehoward@yahoo.com
+                </p>
+              </div>
+            </div>
+
+            
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">Skills</p>
+
+            <ul class="profile-skills-list">
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Adobe Photoshop
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Adobe Illustrator
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Visual Identity
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Logo Design
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Product Design
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                2D Art
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Motion Graphics
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Branding
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Illustrations
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                Publication Design
+              </li>
+              <li
+                class="
+                  btn btn-outline-standard
+                  small-text
+                  bold-text
+                  color-purple
+                  mr-6
+                  mb-6
+                "
+              >
+                3D Modelling
+              </li>
+            </ul>
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">Languages</p>
+            <ul class="languages-list mb-0">
+              <li>
+                <p class="medium-text bold-text color-black mb-1">English</p>
+                <p class="medium-text color-dark-grey mb-1">
+                  Full professional proficiency
+                </p>
+              </li>
+              <li>
+                <p class="medium-text bold-text color-black mb-1">French</p>
+                <p class="medium-text color-dark-grey mb-1">
+                  Limited working proficiency
+                </p>
+              </li>
+              <li>
+                <p class="medium-text bold-text color-black mb-1">Chinese</p>
+                <p class="medium-text color-dark-grey mb-1">
+                  Elementary profieciency
+                </p>
+              </li>
+            </ul>
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">Work Experience</p>
+
+            <ul class="work-experience-list">
+              <li>
+                <img src="../images/profile/work-1.svg" alt="work-1" />
+                <div class="work-experience-details">
+                  <p class="normal-text bold-text color-black mb-1">
+                    Graphic Designer
+                  </p>
+                  <p class="medium-text color-black mb-1">
+                    <span class="color-purple">Gekko & Co</span> • Full-time
+                  </p>
+                  <p class="medium-text color-dark-grey mb-1">
+                    Jan 2019 - Jul 2021 • 6 yrs 7 mos
+                  </p>
+                  <p class="medium-text color-dark-grey mb-12">
+                    London, England, UK
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../images/profile/work-2.svg" alt="work-2" />
+                <div class="work-experience-details">
+                  <p class="normal-text bold-text color-black mb-1">
+                    Graphic Designer
+                  </p>
+                  <p class="medium-text color-black mb-1">
+                    <span class="color-purple">Gekko & Co</span> • Full-time
+                  </p>
+                  <p class="medium-text color-dark-grey mb-1">
+                    Jan 2019 - Jul 2021 • 6 yrs 7 mos
+                  </p>
+                  <p class="medium-text color-dark-grey mb-12">
+                    London, England, UK
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../images/profile/work-3.svg" alt="work-3" />
+                <div class="work-experience-details">
+                  <p class="normal-text bold-text color-black mb-1">
+                    Graphic Designer
+                  </p>
+                  <p class="medium-text color-black mb-1">
+                    <span class="color-purple">Gekko & Co</span> • Full-time
+                  </p>
+                  <p class="medium-text color-dark-grey mb-1">
+                    Jan 2019 - Jul 2021 • 6 yrs 7 mos
+                  </p>
+                  <p class="medium-text color-dark-grey mb-12">
+                    London, England, UK
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">Education</p>
+            <p class="normal-text bold-text color-black mb-1">
+              University of Florida
+            </p>
+            <p class="medium-text color-black mb-1">
+              Master’s degree • Graphic Design
+            </p>
+            <p class="medium-text color-dark-grey">Sep 2019 - Sep 2020</p>
+            <p class="normal-text-3 color-dark-grey mt-30 mb-15">
+              Licenses & certifications
+            </p>
+            <p class="normal-text bold-text color-black mb-1">
+              CILS Livello DUE -B2
+            </p>
+            <p class="medium-text color-black mb-1">
+              Università per Stranieri di Siena
+            </p>
+            <p class="medium-text color-dark-grey mb-15">
+              Issued Jan 2021 • Expires Jan 2026
+            </p>
+            <div class="certificate-image">
+              <img
+                src="../images/user-settings/certificate.png"
+                alt="certificate.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
